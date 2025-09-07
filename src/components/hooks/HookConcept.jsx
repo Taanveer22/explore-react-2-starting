@@ -20,11 +20,11 @@ const HookConcept = () => {
       <h2 className="text-2xl font-medium">count variable : {varCount}</h2>
       <button className="btn btn-success" onClick={handleState}>
         click to update state
-      </button>{" "}
+      </button>
       <br /> <br />
       <button className="btn btn-error" onClick={handleVar}>
-        click to update variable
-      </button>{" "}
+        click to update variable (not possible in react)
+      </button>
       <br />
       <br />
     </div>
